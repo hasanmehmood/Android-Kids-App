@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back1" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/menu"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:background="@drawable/mybut1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:background="@drawable/mybut2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:background="@drawable/mybut3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:background="@drawable/quit" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:background="@drawable/custom" />
+    
+</RelativeLayout>
